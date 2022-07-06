@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>SM64_Save_Editor</RootNamespace>
+    <AssemblyName>DanTheMan827.$(MSBuildProjectName)</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SM64.Saves\SM64.Saves.csproj" />
+  </ItemGroup>
+
+</Project>
